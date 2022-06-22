@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  app:
+    image: sauron/simulator
+    container_name: sauron_simulator
+    extra_hosts:
+      - "host.docker.internal:172.28.95.14"
